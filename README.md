@@ -107,7 +107,7 @@ The results of our trained models are listed in the following. The ss and ms mea
 
 # License
 
-Some of the code is borrowed from [BiSeNet](https://github.com/CoinCheung/BiSeNet)
+Some of the code is borrowed from [BiSeNet](https://github.com/CoinCheung/BiSeNet), [DACS](https://github.com/vikolss/DACS)
 
 If you use this code in your research please consider citing our work
 
