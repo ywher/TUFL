@@ -96,7 +96,9 @@ More trained models can be found in the following links:
 * Cityscapes-to-Taipei: [https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing](https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing)
 * Cityscapes-to-Tokyo: [https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing](https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing)
 
-The results of our trained models are listed in the following. The ss and ms mean single scale and multi scale testing respectively.
+The results of our trained models are listed in the following. The ss and ms mean single scale and multi scale testing respectively. 
+
+Note that we didn't use the Image Style Translation (IST) like CycleGAN and FDA in these experiments. Using IST, class-level threshold adjusment strategy, and Cross-domain Image Mixing (CIM, stage two) would further improve the adaptation results.
 
 | Setting\iteration (mIoU) | 2k iteration(ss/ms) | best iteration     |
 | ------------------------ | ------------------- | ------------------ |
