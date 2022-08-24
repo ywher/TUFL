@@ -2,7 +2,7 @@
 
 Official implementation of "Threshold-adaptive unsupervised focal loss for domain adaptive semantic segmentation". Submitted to T-ITS on April 2, 2022.
 
-[https://arxiv.org/abs/2208.10716]()
+[https://arxiv.org/abs/2208.10716](https://arxiv.org/abs/2208.10716)
 
 ## Abstract
 
@@ -64,7 +64,7 @@ We use two 1080Ti GPUs for training and one of them for evaluation.
 
 First, you need to download the pretrained model of BiSeNet on Cityscapes and put it in the pretrained folder.  (You can also re-train the BiSeNet on Cityscapes.)
 
-(Link: [https://drive.google.com/file/d/1P0G1mcNomCxUqMScKJlzSDpvB9vDf-6u/view?usp=sharing]())
+(Link: [https://drive.google.com/file/d/1P0G1mcNomCxUqMScKJlzSDpvB9vDf-6u/view?usp=sharing](https://drive.google.com/file/d/1P0G1mcNomCxUqMScKJlzSDpvB9vDf-6u/view?usp=sharing))
 
 ```
 CUDA_VISIBLE_DEVICES=0,1 python3 -m torch.distributed.launch --nproc_per_node=2 ./unsup/train_paste.py --tensorboard \
@@ -81,7 +81,7 @@ You can refer to TUFL/unsup/parse_args.py for more information about the trainin
 
 First, you can download our trained models from Cityscapes to Rio and put them in the **TUFL/outputs**.
 
-(Link: [https://drive.google.com/drive/folders/1YAcjbf7Lt4iER3K-idP_olONO1ybRCP5?usp=sharing]())
+(Link: [https://drive.google.com/drive/folders/1YAcjbf7Lt4iER3K-idP_olONO1ybRCP5?usp=sharing](https://drive.google.com/drive/folders/1YAcjbf7Lt4iER3K-idP_olONO1ybRCP5?usp=sharing))
 
 You need to specify the --save_path (model path) and --city (target city name) in the evaluation. Note that the --save_path should be in the **TUFL/outputs** folder.
 
@@ -92,9 +92,9 @@ CUDA_VISIBLE_DEVICES=0 python3 ./utils/evaluate.py --dataset 'CrossCity' --datas
 
 More trained models can be found in the following links:
 
-* Cityscapes-to-Rome: [https://drive.google.com/drive/folders/1CO_SxoiLP1lIqm4fBYk1SQnPG1wZNOBn?usp=sharing]()
-* Cityscapes-to-Taipei: [https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing]()
-* Cityscapes-to-Tokyo: [https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing]()
+* Cityscapes-to-Rome: [https://drive.google.com/drive/folders/1CO_SxoiLP1lIqm4fBYk1SQnPG1wZNOBn?usp=sharing](https://drive.google.com/drive/folders/1CO_SxoiLP1lIqm4fBYk1SQnPG1wZNOBn?usp=sharing)
+* Cityscapes-to-Taipei: [https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing](https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing)
+* Cityscapes-to-Tokyo: [https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing](https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing)
 
 The results of our trained models are listed in the following. The ss and ms mean single scale and multi scale testing respectively.
 
