@@ -114,5 +114,10 @@ Some of the code is borrowed from [BiSeNet](https://github.com/CoinCheung/BiSeNe
 If you use this code in your research please consider citing our work
 
 ```
-
+@article{yan2022threshold,
+  title={Threshold-adaptive Unsupervised Focal Loss for Domain Adaptation of Semantic Segmentation},
+  author={Yan, Weihao and Qian, Yeqiang and Wang, Chunxiang and Yang, Ming},
+  journal={arXiv preprint arXiv:2208.10716},
+  year={2022}
+}
 ```
