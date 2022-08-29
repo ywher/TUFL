@@ -96,7 +96,7 @@ More trained models can be found in the following links:
 * Cityscapes-to-Taipei: [https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing](https://drive.google.com/drive/folders/1byndx9ykhg1hOQNlVLqn9znidnj0Rf5C?usp=sharing)
 * Cityscapes-to-Tokyo: [https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing](https://drive.google.com/drive/folders/1NXTiTlXA3pvLVXYcPUgtLZULTqiIqI1W?usp=sharing)
 
-The results of our trained models are listed in the following. The ss and ms mean single scale and multi scale testing respectively. 
+The results of our trained models are listed in the following. The ss and ms mean single scale and multi scale testing respectively.
 
 Note that we didn't use the Image Style Translation (IST) like CycleGAN and FDA in these experiments. Using IST, class-level threshold adjusment strategy, and Cross-domain Image Mixing (CIM, stage two) would further improve the adaptation results.
 
@@ -114,5 +114,10 @@ Some of the code is borrowed from [BiSeNet](https://github.com/CoinCheung/BiSeNe
 If you use this code in your research please consider citing our work
 
 ```
-
+@article{yan2022threshold,
+  title={Threshold-adaptive Unsupervised Focal Loss for Domain Adaptation of Semantic Segmentation},
+  author={Yan, Weihao and Qian, Yeqiang and Wang, Chunxiang and Yang, Ming},
+  journal={arXiv preprint arXiv:2208.10716},
+  year={2022}
+}
 ```
