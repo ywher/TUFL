@@ -111,18 +111,28 @@ Note that we didn't use the Image Style Translation (IST) like CycleGAN and FDA 
 | Cityscapes-to-Taipei     | 51.05/52.15         | 51.58/52.65 (1.4k) |
 | Cityscapes-to-Tokyo      | 48.59/59.70         | 50.01/51.27 (1k)   |
 
-# License
+# Acknowledgement
 
 Some of the code is borrowed from [BiSeNet](https://github.com/CoinCheung/BiSeNet), [DACS](https://github.com/vikolss/DACS)
+
+Thanks a lot for their great work!
+
+# Citation
 
 If you use this code in your research please consider citing our work
 
 ```
-@article{yan2022threshold,
-  title={Threshold-Adaptive Unsupervised Focal Loss for Domain Adaptation of Semantic Segmentation},
+@ARTICLE{9916201,
   author={Yan, Weihao and Qian, Yeqiang and Wang, Chunxiang and Yang, Ming},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2022},
-  publisher={IEEE}
-}
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Threshold-Adaptive Unsupervised Focal Loss for Domain Adaptation of Semantic Segmentation}, 
+  year={2023},
+  volume={24},
+  number={1},
+  pages={752-763},
+  doi={10.1109/TITS.2022.3210759}}
 ```
+
+# Contact
+
+Weihao Yan: weihao_yan@outlook.com
